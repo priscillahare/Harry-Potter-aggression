@@ -1,0 +1,21 @@
+---
+title: "Harry Potter Lab Week 6"
+author: "Priscilla Hare"
+date: "November 7, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. I want to laod packages and read in the data
+
+```{r, include = FALSE}
+
+library(tidyverse)
+hp_data <- read_csv("harry_potter_aggression_full.csv")
+
+```
+
+# I am in lab week 6!
